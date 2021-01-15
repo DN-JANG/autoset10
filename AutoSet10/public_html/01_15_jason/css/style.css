@@ -313,7 +313,7 @@
 #login #section2 .wrap .gap .container .content > ul {width: 100%;}
 #login #section2 .wrap .gap .container .content > ul > li {float: left;}
 #login #section2 .wrap .gap .container .content > ul > li:nth-child(1) {width: 32.026%;}
-#login #section2 .wrap .gap .container .content > ul > li:nth-child(2) {width: 35.947%;}
+#login #section2 .wrap .gap .container .content > ul > li:nth-child(2) {width: 35.947%;min-width: 550px;}
 #login #section2 .wrap .gap .container .content > ul > li:nth-child(3) {width: 32.026%;}
 #login #section2 .wrap .gap .container .content > ul > li .content-gap {width: 100%;}
 #login #section2 .wrap .gap .container .content > ul > li .content-gap .title h3 {color: #222;font-size:20px ;}

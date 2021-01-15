@@ -17,6 +17,7 @@
             var that     = null;
             var $window  = $(window);
             var $header  = $('#header');
+            var $section2 = $('#section2');
             var $menuBar = $('.menu-bar');
             var $nav     = $('#nav');
             var $mainBtn = $('.main-btn');
@@ -26,6 +27,7 @@
             var menuBar  = 0;  // menu를 click 안한 상태
             var sign     = -1;        // 부호 기본값 음수 -1
             var topPosi  = 124;
+
 
                 $header.on({
                     mouseenter:function(){
@@ -40,7 +42,7 @@
                     }
                 });
 
-
+                // wheel mouse event
                 $window.scroll(function(){
                     that = $(this);
                     if( that.scrollTop() >= 30 ){
@@ -49,7 +51,7 @@
                         if( t===false ){
                             t=true;
                             var headerH = $('#header').height();
-                            $('html,body').stop().animate({scrollTop:$('#main #section2').offset().top-headerH},600,'easeInOutExpo');
+                            $('html,body').stop().animate({scrollTop:$section2.offset().top-headerH},600,'easeInOutExpo');
                         }
                         
                     }
@@ -289,7 +291,7 @@
                 function resizeFn(){
                     winW = $(window).width();
                     winH = $(window).height();
-                    $('#main #section1, #login #section1').css({ height:winH });  // login.php의 창높이를 넣어줌  #login #section1
+                    $('#section1').css({ height:winH });  // login.php의 창높이를 넣어줌  #login #section1
                     $('#main #section2').css({ marginTop:winH });
                     $slide.css({ width:winW })
                 }

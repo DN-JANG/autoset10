@@ -18,6 +18,15 @@
     #wrap #main #section1 .wrap .gap .container .slide-container .prev-wrap {left:calc(8.7493431%*.5);width:calc(52px*.5);height:calc(100px*.5);margin-top:calc(-50px*.5);}
 
     #wrap #main #section5 .container ul li {width:33.333%;}
+
+    /* login page */
+    #login #section2 .wrap .gap .container .content > ul > li {float: left;}
+    #login #section2 .wrap .gap .container .content > ul > li:nth-child(1) {width: 32.026%;}
+    #login #section2 .wrap .gap .container .content > ul > li:nth-child(2) {width: 35.947%;min-width: 550px;}
+    #login #section2 .wrap .gap .container .content > ul > li:nth-child(3) {width: 32.026%;}
+    #login #section2 .wrap .gap .container .content > ul > li .content-gap {width: 100%;}
+    #login #section2 .wrap .gap .container .content > ul > li .content-gap .title h3 {color: #222;font-size:17px ;}
+    #login #section2 .wrap .gap .container .content > ul > li .content-gap .title h2 {color: #2e3192;font-size:35px ;}
 }
 
 @media all and (max-width:1024px){
@@ -58,6 +67,15 @@
     #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .s3slide .slide-content .right-wrap .text-gap .slide-text h3 {font-size:19px;}
     #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .s3slide .slide-content .right-wrap .text-gap .slide-text h4 {font-size:14px;}
     #wrap #main #section3 .wrap .gap .container .content .slide-container .slide-view .slide-wrap .s3slide .slide-content .right-wrap .text-gap .slide-text p {font-size:13px;line-height:130%;}
+
+        /* login page */
+    #login #section2 .wrap .gap .container .content > ul > li {float: none;margin: 0 auto;}
+    #login #section2 .wrap .gap .container .content > ul > li:nth-child(1) {width:80%;}
+    #login #section2 .wrap .gap .container .content > ul > li:nth-child(2) {width:80%;min-width: 320px;}
+    #login #section2 .wrap .gap .container .content > ul > li:nth-child(3) {width:80%;}
+    #login #section2 .wrap .gap .container .content > ul > li .content-gap {width: 100%;}
+    #login #section2 .wrap .gap .container .content > ul > li .content-gap .title h3 {color: #222;font-size:17px ;}
+    #login #section2 .wrap .gap .container .content > ul > li .content-gap .title h2 {color: #2e3192;font-size:35px ;}
 }
 
 @media all and (max-width:860px){
@@ -142,6 +160,15 @@
     #wrap #header .wrap .header-gap .container > ul > li:nth-child(1) {top:16.7265px;}
 
     #wrap #main #section5 .container ul li {width:50%;}
+
+            /* login page */
+            #login #section2 .wrap .gap .container .content > ul > li {float: none;margin: 0 auto;}
+            #login #section2 .wrap .gap .container .content > ul > li:nth-child(1) {width:100%;}
+            #login #section2 .wrap .gap .container .content > ul > li:nth-child(2) {width:100%;min-width: 320px;}
+            #login #section2 .wrap .gap .container .content > ul > li:nth-child(3) {width:100%;}
+            #login #section2 .wrap .gap .container .content > ul > li .content-gap {width: 100%;}
+            #login #section2 .wrap .gap .container .content > ul > li .content-gap .title h3 {color: #222;font-size:17px ;}
+            #login #section2 .wrap .gap .container .content > ul > li .content-gap .title h2 {color: #2e3192;font-size:35px ;}
 }
 
 @media all and (max-width:410px){
